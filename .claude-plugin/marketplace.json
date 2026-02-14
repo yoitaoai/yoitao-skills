@@ -1,0 +1,21 @@
+{
+  "name": "yoitao-skills",
+  "owner": {
+    "name": "Yoitao AI"
+  },
+  "metadata": {
+    "description": "Skills shared by Yoitao for Claude Code and other agent runtimes",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "yoitao-core-skills",
+      "description": "Core skills maintained by Yoitao",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/yoitao-jimeng-sessionid"
+      ]
+    }
+  ]
+}

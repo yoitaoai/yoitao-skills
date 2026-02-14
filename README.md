@@ -42,7 +42,7 @@ npx skills add yoitaoai/yoitao-skills --skill yoitao-jimeng-sessionid
 
 | Skill | 说明 |
 | --- | --- |
-| `yoitao-jimeng-sessionid` | 自动打开即梦页面并提取 `sessionid` Cookie |
+| `yoitao-jimeng-sessionid` | 自动打开即梦页面并提取 `sessionid` Cookie（需 Playwright MCP） |
 
 ## 仓库结构
 

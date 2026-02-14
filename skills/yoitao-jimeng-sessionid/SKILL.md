@@ -7,6 +7,37 @@ description: 当需要获取或刷新即梦（jimeng.jianying.com）登录态中
 
 获取并返回即梦站点的 `sessionid` Cookie（只返回值，不写文件）。
 
+## 依赖项
+
+本技能依赖 **Playwright MCP**，需要运行环境中已注册 Playwright MCP 服务，并可调用以下浏览器工具：
+
+- `browser_navigate`
+- `browser_snapshot`（或同类页面状态读取工具）
+- `browser_run_code`
+- `browser_close`
+
+如果缺少以上能力，本技能无法完成登录检查与 Cookie 提取流程。
+
+## Playwright MCP 安装示例
+
+建议显式指定 `profile`（通过 `--user-data-dir`），这样即梦登录态可以持久化，不用每次重新登录。
+
+以下为常见安装方式（按你的客户端选择其一）：
+
+### Claude Code
+
+```bash
+claude mcp add playwright npx @playwright/mcp@latest -- --user-data-dir "$HOME/.yoitao/mcp/playwright-jimeng-profile"
+```
+
+### Codex
+
+```bash
+codex mcp add playwright npx @playwright/mcp@latest -- --user-data-dir "$HOME/.yoitao/mcp/playwright-jimeng-profile"
+```
+
+安装后建议重启客户端，再执行本技能。
+
 ## 触发场景
 
 - 用户要求获取即梦 `sessionid`

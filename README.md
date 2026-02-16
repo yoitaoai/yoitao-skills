@@ -40,9 +40,11 @@ npx skills add yoitaoai/yoitao-skills --skill yoitao-jimeng-sessionid
 
 ## 当前技能列表
 
-| Skill | 说明 |
-| --- | --- |
-| `yoitao-jimeng-sessionid` | 自动打开即梦页面并提取 `sessionid` Cookie（需 Playwright MCP） |
+| Skill | 说明 | 状态 |
+| --- | --- | --- |
+| `yoitao-jimeng-sessionid` | 自动打开即梦页面并提取 `sessionid` Cookie（需 Playwright MCP） | ✅ 维护中 |
+| `yoitao-xhs-mcp-skill-小红书MCP技能` | 小红书 MCP 统一能力封装，支持登录、浏览、搜索、互动、发布等完整流程 | ✅ 推荐使用 |
+| `yoitao-xiaohongshu-auto-comment-小红书自动评论` | 已过时，不再维护；请迁移到 `yoitao-xhs-mcp-skill-小红书MCP技能` | ⚠️ Deprecated |
 
 ## 仓库结构
 

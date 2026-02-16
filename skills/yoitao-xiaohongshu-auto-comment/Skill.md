@@ -1,9 +1,12 @@
 ---
 name: yoitao-xiaohongshu-auto-comment-小红书自动评论
-description: Automates Xiaohongshu (Little Red Book) engagement by browsing the feed and posting high-quality, contextual comments on image-text posts. Enforces strict rate limits, anti-detection measures, comment quality rules, and cross-batch deduplication. Use when user asks to "run xhs comments", "小红书评论", "小红书互动", or "run xiaohongshu engagement".
+description: DEPRECATED. This skill is no longer maintained. Use yoitao-xhs-mcp-skill-小红书MCP技能 instead.
 ---
 
-# 小红书自动互动 Skill
+# 小红书自动互动 Skill（已过时）
+
+> ⚠️ **状态：已过时（Deprecated）**
+> 本技能已停止维护，现由 `yoitao-xhs-mcp-skill-小红书MCP技能` 替代。新需求请优先使用 MCP 版本。
 
 ## Overview
 

@@ -281,7 +281,8 @@ done
 
 - `baoyu-xhs-images` - 底层图片生成技能
 - `baoyu-danger-gemini-web` - 图片生成API
-- `xhs-auto-comment` - 小红书自动评论
+- `yoitao-xhs-mcp-skill-小红书MCP技能` - 小红书 MCP 统一能力（已替代旧版自动评论技能）
+- `yoitao-xiaohongshu-auto-comment-小红书自动评论` - 已过时（Deprecated）
 - `baoyu-post-to-x` - 跨平台内容发布
 
 ## 更新日志

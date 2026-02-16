@@ -11,7 +11,7 @@ description: 小红书自动生成 N 篇图片，根据用户输入的网址或m
 
 - 🎨 自动使用 baoyu-xhs-images skill 生成精美图片
 - 🖼️ 默认使用 baoyu-danger-gemini-web 作为图片生成后端
-- 💧 自动添加"小柚子"水印
+- 💧 自动添加"Yoitao"水印
 - 📁 智能输出到 `自媒体/图文/{date}/` 目录（date格式：YYYYMMDD）
 - 📝 支持多种输入源：URL、Markdown文件、纯文本
 
@@ -52,7 +52,7 @@ description: 小红书自动生成 N 篇图片，根据用户输入的网址或m
 
 2. **配置 EXTEND.md**
    - 如果 `.baoyu-skills/baoyu-xhs-images/EXTEND.md` 不存在，自动创建
-   - 配置水印：`飞花无双`
+   - 配置水印：`Yoitao`
    - 配置输出目录：`自媒体/图文/{当天日期}/`
    - 配置图片生成后端：`baoyu-danger-gemini-web`
 
